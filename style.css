@@ -1,0 +1,102 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+}
+
+.alya {
+    flex: 1 ;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+header {
+    background-image: url(al.jpg);
+    background-position: 20;
+    background-size: 50;
+    background-color: #EFC3CA;
+    color: white;
+    text-align: center;
+    height: 200px;
+    padding: 20px 0;
+}
+
+
+.container {
+    flex: 1;
+    display: flex;
+}
+
+aside {
+    width: 20%;
+    background-color: #EFC3CA;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin-bottom: 15px;
+}
+
+aside ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 10px;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+aside ul li a:hover {
+    background-color: #f88edf;
+    border-radius: 4px;
+}
+
+
+
+main {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+
+footer {
+    background-color: #EFC3CA;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+footer a {
+    color: #0008ff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}        
